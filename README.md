@@ -1,6 +1,7 @@
-# 树莓派4B_linux clash部署教程（2024.3.4）
+# 树莓派4B_linux clash部署教程
 
-> 写在前面：由于clash去年已经删库跑路，加上网上对于这部分部署教程并不太多，前期个人也踩了很多坑，希望这篇对大家有帮助，enjoy~
+> 只为留个备份资料
+
 # 0 使用情况介绍
 * 硬件：树莓派4B
 * 烧录系统 ："Bookworm", released on 11th October 2023
@@ -138,19 +139,9 @@ crontab -e
 
 ```
 @reboot /usr/local/bin/clash
-```     
+```
 保存后退出即可。  
 
 # 参考资料：
 感谢前人的引领，也希望本篇教程能帮助到更多人~   
-1. https://parrotsec-cn.org/t/linux-clash-dashboard/5169  
-2. https://mraddict.top/posts/clash-on-rpi/index.html  
-3. http://www.okey56.com/post/28.html  
-4. https://github.com/ghostxu97/clash-for-linux?tab=readme-ov-file  
-5. https://github.com/haishanh/yacd/issues/505  
-  
-  
-  
-至此，大功告成。
-   
-——End——
+1. [Xizhe-Hao/Clash-for-RaspberryPi-4B: 树莓派如何使用clash科学上网_2024版](https://github.com/Xizhe-Hao/Clash-for-RaspberryPi-4B)
