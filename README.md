@@ -22,8 +22,10 @@ uname -m
 | aarch64 或 armv8 | 64位 | [clash-linux-armv8.gz](https://github.com/frainzy1477/clash_dev/releases/download/v1.1.0/clash-linux-armv8.gz) |
 
 其他版本可通过[此链接](https://github.com/frainzy1477/clash_dev/releases)获取
-![image](https://github.com/Xizhe-Hao/RaspberryPi-4B-clash-2024.3/assets/154408355/dd28b846-44aa-4ca7-8951-b79aee49bae4)
-下载指令（以64位系统为例） 
+
+![img](./picture.README/309754857-dd28b846-44aa-4ca7-8951-b79aee49bae4.png)
+下载指令（以64位系统为例) 
+
 ```Bash
 wget https://github.com/frainzy1477/clash_dev/releases/download/v1.1.0/clash-linux-armv8.gz
 ```
@@ -43,7 +45,9 @@ sudo chmod a+x /usr/local/bin/clash
 wget -O config.yaml [订阅链接]
 ```
 订阅链接请从魔法后台寻找
-![image](https://github.com/Xizhe-Hao/RaspberryPi-4B-clash-2024.3/assets/154408355/c6209992-8ddd-42f3-b287-718d4e9604d9)
+
+![img](./picture.README/309783048-c6209992-8ddd-42f3-b287-718d4e9604d9.png)
+
 ## 2.2 下载clash全球IP库
 Clash配置需要下载Country.mmdb 文件，Country.mmdb 是全球 IP 库，可以实现各个国家的IP信息解析和地理定位，没有这个文件clash无法正常启动下载指令
 ```
@@ -121,13 +125,19 @@ curl www.google.com
 chromium-browser --proxy-server="http://127.0.0.1:7890"
 ```
 即可自动打开浏览器，并且访问google没有问题,如图：  
-![image](https://github.com/Xizhe-Hao/RaspberryPi-4B-clash-2024.3/assets/154408355/5d542f83-1dc9-41bb-97fa-d22bb296a500)
+
+![img](./picture.README/314552513-5d542f83-1dc9-41bb-97fa-d22bb296a500.png)
+
 # 5. Dashboard选择节点
 在刚才打开的浏览器中输入Dashboard网址（以Yacd为例）：yacd.haishan.me  
 打开如图勾选“自动断连旧链接”  
-![image](https://github.com/Xizhe-Hao/RaspberryPi-4B-clash-2024.3/assets/154408355/3c9e7de4-84a8-4ebe-b2e7-9d5d450924bf)  
+
+![img](./picture.README/314566695-3c9e7de4-84a8-4ebe-b2e7-9d5d450924bf.png)
+
 此时，便可以在proxies里面自由选择节点了
-![image](https://github.com/Xizhe-Hao/RaspberryPi-4B-clash-2024.3/assets/154408355/c641e302-b185-44ec-8982-15e8a014fa64)  
+
+![img](./picture.README/314568226-c641e302-b185-44ec-8982-15e8a014fa64.png)
+
 # 6 Clash开机自启动
 我们可以使用 crontab 作为自动任务管理器，将clash启动作为系统默认任务。
 输入以下命令打开 crontab：   
